@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-bot-peluqueria",
+  "version": "0.1.0",
+  "description": "Bot de WhatsApp para agendar citas en una peluquería (WhatsApp Cloud API)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "simular": "node scripts/simular.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
